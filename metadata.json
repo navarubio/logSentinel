@@ -1,0 +1,5 @@
+{
+  "name": "Log Sentinel 8-Bit",
+  "description": "An 80s retro-themed log analysis tool with an integrated AI assistant to debug Payara, PostgreSQL, and Sensor logs, also featuring a classic Domino game.",
+  "requestFramePermissions": []
+}
