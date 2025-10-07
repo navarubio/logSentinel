@@ -24,7 +24,7 @@ Para configurar las variables de entorno en Vercel:
 2. Navega a Settings > Environment Variables
 3. Agrega las siguientes variables:
    - **Name**: `GEMINI_API_KEY`
-   - **Value**: `AIzaSyDkWSWVC4vgeEoOUmIxgS986QSOdJAIvvI`
+   - **Value**: `AIzaSyDraVm9tJXOXmhXDAtz9r-Lr5h7BqlV_fw`
    - **Environments**: Production, Preview, Development
 
 ### Método 2: Vercel CLI

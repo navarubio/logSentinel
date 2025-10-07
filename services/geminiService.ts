@@ -1,11 +1,11 @@
 
 import { GoogleGenAI } from "@google/genai";
 
-// Obtener la API key desde las variables de entorno
-const API_KEY = process.env.API_KEY || process.env.GEMINI_API_KEY;
+// Obtener la API key desde las variables de entorno de Vite
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 if (!API_KEY) {
-  console.error("❌ API_KEY environment variable not set. Please configure GEMINI_API_KEY in your environment.");
+  console.error("❌ VITE_GEMINI_API_KEY environment variable not set. Please create a .env file and configure VITE_GEMINI_API_KEY.");
 }
 
 // Inicializar el cliente de Google Gemini AI

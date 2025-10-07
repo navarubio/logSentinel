@@ -129,7 +129,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ logType, selectedLogLines }) =>
                 <p className={`text-sm font-bold mb-1 ${msg.sender === 'user' ? 'text-purple-300' : 'text-cyan-300'}`}>
                     {msg.sender === 'user' ? 'YOU:' : 'A.I. ASSISTANT:'}
                 </p>
-                <pre className="whitespace-pre-wrap font-['VT323'] leading-snug text-white">
+                <pre className={`whitespace-pre-wrap font-['VT323'] leading-snug ${msg.sender === 'user' ? 'text-yellow-400' : 'text-lime-400'}`}>
                     {msg.text}
                 </pre>
             </div>
